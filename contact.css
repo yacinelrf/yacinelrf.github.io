@@ -1,6 +1,7 @@
 
 body{
     background-color:slategrey;
+    overflow: hidden;
 }
 
 .accounts{

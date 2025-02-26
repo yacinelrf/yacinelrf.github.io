@@ -1,3 +1,4 @@
+@media (min-width: 768px){
 *{
     padding: 0%;
     margin: 0%;
@@ -18,7 +19,40 @@ border-radius: 30px;
 }
 p,h1{
 position: relative;
-left: 100%;
+left: -300px;
 top: 30%;
 overflow:hidden;
+}
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+    *{
+        padding: 0%;
+        margin: 0%;
+    }
+    
+    body{
+        position: absolute;
+    }
+    
+    
+    img{
+    position: relative;
+    width: 30px;
+    top: 30vw;
+    left: 40%;
+    box-shadow:-7px 7px 3px rgba(247, 247, 222, 0.633) ;
+    border-radius: 3px;
+    }
+    p,h1{
+    position: relative;
+    left: -30px;
+    top: 20vw;
+    font-size: 1vw;
+    }
 }

@@ -1,3 +1,7 @@
+@media (min-width: 768px){
+    #bars{
+        display: none;
+    }
 *{
     padding: 0%;
     margin: 0%;
@@ -43,7 +47,7 @@ body{
 
 .h21 {
     font-size: 2vw;
-     left: 10%;
+     left: -10%;
      top: 20vw;
      position: absolute;
      line-height: 1.5;
@@ -59,11 +63,48 @@ body{
     background-size: 0% 100%;
     animation: animatedBackground 2s infinite cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
+#iconParam{
+    position: absolute;
+    left: 26%;
+    top: 28vw;
+    cursor: pointer;
+    animation: param 5s  infinite  normal;
+}
 
 
-@keyframes animatedBackground {
-    to {
-        background-size: 100% 100%;
+@keyframes param{
+    0%{
+        top: 27.5vw;
+        transform:rotate(-360deg) ;
+    }
+    30%{
+        transform:rotate(-30deg) ;
+        top: 28vw;
+    }
+    40%{
+        transform:rotate(360deg) ;
+    }
+    50%{
+        top: 27.5vw;
+        transform:rotate(360deg) ;
+    }
+    60%{
+        transform:rotate(360deg) ;
+    }
+    70%{
+        transform:rotate(360deg) ;
+        top: 28vw;
+    }
+    80%{
+        top: 27.5vw;
+        transform:rotate(360deg) ;
+    }
+    90%{
+        top: 28vw;
+        transform:rotate(360deg) ;
+    }
+    100%{
+        transform:rotate(360deg) ;
     }
 }
 
@@ -83,4 +124,126 @@ iframe{
 }
 #contact{
     height: 200px;
+}
+#prm_div{
+    background-color: #385170;
+    position: absolute;
+    left: -120%;
+    top: 30vw;
+    width: 14vw;
+    border-radius: 2vw;
+    height: 4vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+#prm_div i{
+    cursor: pointer;
+}
+#prm_div i:hover{
+    top: 29vw;
+    animation: bell 2s normal;
+}
+
+@keyframes bell {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(45deg);
+    }
+    20% {
+        transform: rotate(-45deg);
+    }
+    30% {
+        transform: rotate(45deg);
+    }
+    40% {
+        transform: rotate(-45deg);
+    }
+    50% {
+        transform: rotate(45deg);
+    }
+    60% {
+        transform: rotate(-45deg);
+    }
+    
+    100% {
+        transform: rotate(0deg);
+    }
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-----------------------------*/
+@media (max-width: 768px){
+
+    *{
+        padding: 0%;
+        margin: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        background-color: rgb(255, 255, 255);
+        position: relative;
+    }
+    #bars{
+        position: absolute;
+        top: 6vw;
+        left: 4vw;
+    }
+.nevbar{
+    display: none;
+}
+
+.h21 {
+    font-size: 2vw;
+     left: -4%;
+     top: 20vw;
+     position: absolute;
+     line-height: 1.5;
+     display: inline;
+     background-image: linear-gradient(
+        transparent 50%,
+        #e1fffe 50%,
+        #b0f8ff 85%,
+        transparent 85%,
+        transparent 100%
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    animation: animatedBackground 2s infinite cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
+}
+.container img{
+    width: 18%;
+    position: absolute;
+    
+    left: 60%;
+    top: 15vw;
+}
+
+#iconParam{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
 }
