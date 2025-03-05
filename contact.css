@@ -1,4 +1,5 @@
 
+@media (min-width: 768px){
 body{
     background-color:slategrey;
     overflow: hidden;
@@ -17,4 +18,29 @@ body{
 
 a{
     color: white;
+}
+}
+
+
+@media (max-width: 768px){
+
+body{
+    background-color:slategrey;
+    width: 100vw;
+}
+
+.accounts{
+   display: flex;
+   justify-content: space-around;
+   height: 2vw;
+   width: 40vw;
+   padding: 25%;
+   padding-top: 10%;
+   padding-bottom: 5%;
+   
+}
+
+a{
+    color: white;
+}
 }
