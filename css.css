@@ -203,9 +203,28 @@ iframe{
         position: absolute;
         top: 6vw;
         left: 4vw;
+        cursor: pointer;
     }
 .nevbar{
     display: none;
+}
+#nevbar_phone{
+background-color: #385170;
+height: 12vw;
+}
+.bio{
+    display: none;
+}
+#profile_pic {
+    background-color: #b0f8ff;
+    width: 100%;
+    height: 50vw;
+    display: flex;
+    left: 25%;
+}
+#profile_pic img{
+    width: 50vw;
+    position: absolute;
 }
 
 .h21 {
