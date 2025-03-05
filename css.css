@@ -268,9 +268,22 @@ height: 12vw;
    height:50vw;
    box-shadow:7px 7px 3px rgba(170, 237, 252, 0.633) ;
 }
+#works{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 95%;
+    overflow: hidden;
+    
+  
+  }
 
-
-
+ #skills{
+    background-color: #b0f8ff;
+    width: 100%;
+ }
+ #skills{
+    
+ }
 
 
 
