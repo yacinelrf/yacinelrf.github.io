@@ -292,7 +292,18 @@ height: 12vw;
     height: 15vw;
     overflow: hidden;
 }
+#liennn{
+position: absolute;
+bottom: 2%;
 
+display: flex;
+justify-content: space-around;
+width: 40%;
+left: 27%;
+}
+#liennn a{
+    color: transparent;
+}
 
 
 }
