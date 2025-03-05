@@ -37,7 +37,9 @@ h1{
 }
 }
 @media (max-width: 768px){
-
+body{
+    height: 4%;
+}
     .images{
         display: flex;
         justify-content: center;
