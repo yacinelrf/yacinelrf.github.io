@@ -185,6 +185,9 @@ iframe{
     #liennn a{
         color: transparent;
     }
+    #left{
+        display: none;
+    }
 }
 
 
@@ -216,6 +219,8 @@ iframe{
         top: 6vw;
         left: 4vw;
         cursor: pointer;
+        z-index: 8;
+        color: #e1fffe;
     }
 .nevbar{
     display: none;
@@ -224,6 +229,13 @@ iframe{
 background-color: #385170;
 height: 12vw;
 }
+#nevbar_phone h1{
+    position: absolute;
+    color: #e1fffe;
+    height: 5vw;
+    left: 28%;
+    top: 1.2%;
+    }
 .bio{
     display: none;
 }
@@ -233,12 +245,33 @@ height: 12vw;
     display: flex;
     left: 35%;
     top: 20vw;
+    border-radius: 110px
 }
 #profile_pic img{
     width: 30vw;
     height: 30vw;
     position: absolute;
+    animation: 2s shad infinite;
 }
+@keyframes shad {
+    0% {
+        background-color: #385170;
+        box-shadow: 0px 0px 10px #b0f8ff;
+        transform: scale(1);
+    }
+    50% {
+        background-color: #b0f8ff;
+        box-shadow: 0px 0px 15px #385170;
+        transform: scale(1.03);
+    }
+    100% {
+        background-color: #385170;
+        box-shadow: 0px 0px 10px #b0f8ff;
+        transform: scale(1);
+    }
+}
+
+
 
 .h21 {
     font-size: 2vw;
@@ -306,7 +339,7 @@ height: 12vw;
 }
 #liennn{
     position: absolute;
-    bottom: 20%;
+    bottom: 3%;
     
     display: flex;
     justify-content: space-around;
@@ -315,6 +348,67 @@ height: 12vw;
     }
     #liennn a{
         color: transparent;
+    }
+    #left{
+        width: 70%;
+        height: 100%;
+        left: -80%;
+        background-color: #385a839e;
+        position: absolute;
+        top: 0px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        transition: 2s;
+        box-shadow: 10px 10px 10px rgb(0,0,0,0.5);
+     
+    }
+    #left a{
+        position: absolute;
+
+
+    }
+    #left p{
+        top: 30%;
+        position: absolute;
+        left: 10px;
+        left: 20%;
+        color: #e1fffe;
+        font-size: 3.8vw;
+        font-weight: 200;
+    }
+    #fst{
+        top: 7%;
+        position: absolute;
+    }
+   
+    #scnd{
+        top: 11%;
+        position: absolute;
+    }
+    #thrd{
+        top: 15%;
+        position: absolute;
+        padding-left: 5%;
+    }
+    .left_div{
+        width: 90%;
+        height: 3.5%;
+        padding: 4%;
+        cursor: pointer;
+        display: flex;
+    }
+    .left_div:hover{
+        background-color: #708fb5;
+        box-shadow: 10px 10px 10px #64888b;
+        border-radius: 20px;
+        width: 92%;
+        height: 4%;
+        padding: 5%;
+        transition: 0.3s;
+    }
+    .left_div p{
+        left: 500px;
     }
 
 

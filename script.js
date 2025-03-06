@@ -1,6 +1,8 @@
 let name=document.getElementById("h21");
 let prms=document.getElementById("prm_div");
 let prm=document.getElementById("iconParam");
+let left=document.getElementById("left");
+let bars=document.getElementById("bars");
 
 window.addEventListener("load", function() {
     name.style.left = "12%";
@@ -21,5 +23,21 @@ window.addEventListener("load", function() {
       prms.style.transition="1s";
       i=0;
     }
-});
+})
+let j=0;
+bars.addEventListener("click", function() {
+  if(j/2==0){
+  left.style.left="0%"
+  left.style.transition="1s";
+  j=1;
+  }else{
+    left.style.left="-80%"
+    left.style.transition="1s";
+    j=0;
+  }
+})
+
+
+
+  ;
 
