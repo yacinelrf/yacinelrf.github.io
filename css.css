@@ -188,6 +188,9 @@ iframe{
     #left{
         display: none;
     }
+    #nevbar_phone{
+        display: none;
+    }
 }
 
 
