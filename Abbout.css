@@ -15,7 +15,7 @@ width: 300px;
 top: 250px;
 left: 30%;
 box-shadow:-70px 70px 10px rgba(255, 255, 165, 0.658) ;
-border-radius: 30px;
+border-radius: 39px;
 }
 p,h1{
 position: relative;
@@ -48,7 +48,7 @@ overflow:hidden;
     top: 7vw;
     margin-right: 0%;
     left: 5%;
-    box-shadow:-7px 7px 3px rgba(170, 237, 252, 0.633) ;
+    box-shadow:-7px 7px 3px #9AC8EB;
     border-radius: 3px;
     }
     p,h1{

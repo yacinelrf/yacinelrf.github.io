@@ -219,11 +219,11 @@ iframe{
     }
     #bars{
         position: absolute;
-        top: 3vw;
+        top: 6vw;
         left: 4vw;
         cursor: pointer;
         z-index: 8;
-        color: #e1fffe;
+        color: #F7F6CF;
     }
 .nevbar{
     display: none;
@@ -234,7 +234,7 @@ height: 12vw;
 }
 #nevbar_phone h1{
     position: absolute;
-    color: #e1fffe;
+    color: #F7F6CF;
     height: 5vw;
     left: 26vw;
     top: 2vw;
@@ -264,13 +264,13 @@ height: 12vw;
         transform: scale(1);
     }
     50% {
-        background-color: #b0f8ff;
+        background-color: #F7F6CF;
         box-shadow: 0px 0px 15px #385170;
         transform: scale(1.03);
     }
     100% {
-        background-color: #385170;
-        box-shadow: 0px 0px 10px #b0f8ff;
+        background-color: #F4CFDF;
+        box-shadow: 0px 0px 10px #F4CFDF;
         transform: scale(1);
     }
 }
@@ -312,10 +312,10 @@ height: 12vw;
 #About{
     margin-bottom: 3%;
    margin-top: 5%;
-   background-color:#f4f9ff;
+   background-color:#c9e2f68b;
    width: 100%;
    height:50vw;
-   box-shadow:7px 7px 3px rgba(170, 237, 252, 0.633) ;
+   box-shadow:7px 7px 3px #f6dce77b ;
 }
 #works{
     margin-top: 10%;
@@ -369,6 +369,7 @@ height: 12vw;
     }
     #left a{
         position: absolute;
+        font-weight: bold;
 
 
     }
@@ -414,6 +415,21 @@ height: 12vw;
     .left_div p{
         left: 500px;
     }
+    #portfolio{
+        font-size: 25vw;
+        font-family: "Bebas Neue", sans-serif;
+  font-weight: 550;
+  font-style: normal;
+  position: absolute;
+  left: 3%;
+  color: #c4c3a25f;
+  z-index: -1;
+
+top: 7%;
+}
+#portfolio p{
+    border: #385170 solid 2px;
+}
 
 
 }
