@@ -424,12 +424,30 @@ height: 12vw;
   left: 3%;
   color: #c4c3a25f;
   z-index: -1;
-
+  letter-spacing: -0.1vw;
 top: 7%;
+
 }
-#portfolio p{
-    border: #385170 solid 2px;
+
+#portfolio2{
+    font-size: 25vw;
+    font-family: "Bebas Neue", sans-serif;
+font-weight: 550;
+font-style: normal;
+position: absolute;
+left: 30%;
+z-index: 0;
+font-weight: bold;
+color: transparent; /* Texte transparent */
+-webkit-text-stroke: 0.5px #64888b; /* Bordure du texte */
+top: 7%;
+letter-spacing: -1.8vw;
+border-radius: 400vw;
+width: 30vw;
+padding-left: 1%;
+
 }
+
 
 
 }
