@@ -295,6 +295,7 @@ height: 12vw;
     background-size: 0% 100%;
     animation: animatedBackground 2s infinite cubic-bezier(0.645, 0.045, 0.355, 1) 0.5s forwards;
 }
+
 .container img{
     width: 18%;
     position: absolute;
@@ -421,7 +422,7 @@ height: 12vw;
   font-weight: 550;
   font-style: normal;
   position: absolute;
-  left: 3%;
+  left: 6%;
   color: #c4c3a25f;
   z-index: -1;
   letter-spacing: -0.1vw;
@@ -443,8 +444,10 @@ color: transparent; /* Texte transparent */
 top: 7%;
 letter-spacing: -1.8vw;
 border-radius: 400vw;
-width: 30vw;
-padding-left: 1%;
+width: 36vw;
+padding-left: 3%;
+
+overflow: hidden;
 
 }
 
