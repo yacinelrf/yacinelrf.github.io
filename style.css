@@ -1,0 +1,309 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Anta", sans-serif;
+    background-color: #0a0a0a;
+    color: #fff;
+    line-height: 1.6;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 1rem 2rem;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: #ccc;
+}
+
+.hamburger {
+    display: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+/* Responsive Navbar */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        background-color: #111;
+        width: 100%;
+        top: 100%;
+        left: 0;
+        padding: 1rem 0;
+    }
+
+    .nav-links.open {
+        display: flex;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 1rem 0;
+    }
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#bg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+
+.title {
+    font-size: 6vw;
+    font-weight: bold;
+    color: white;
+}
+
+.subtitle {
+    font-size: 2.5vw;
+    margin-top: 1vw;
+    color: white;
+}
+
+.btn-explore {
+    display: inline-block;
+    margin-top: 3vw;
+    padding: 1vw 2vw;
+    border: 2px solid white;
+    border-radius: 30px;
+    background: transparent;
+    color: white;
+    font-size: 1.5vw;
+    text-decoration: none;
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.btn-explore:hover {
+    background: white;
+    color: black;
+}
+
+/* About Section */
+.about {
+    background: white;
+    color: black;
+    padding: 6vw 4vw;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4vw;
+}
+
+.about .text {
+    flex: 1 1 50%;
+}
+
+.about .text h2 {
+    font-size: 2.5vw;
+    margin-bottom: 1vw;
+}
+
+.about .text p {
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+}
+
+.awards {
+    list-style: none;
+    padding-left: 0;
+    font-size: 1.3vw;
+}
+
+.awards li {
+    margin-bottom: 0.8vw;
+}
+
+.image-container {
+    flex: 1 1 40%;
+    text-align: center;
+}
+
+.profile {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+}
+
+/* Section Work */
+.work {
+    background-color: #111;
+    padding: 6vw 4vw;
+    color: white;
+}
+
+.section-title {
+    font-size: 3vw;
+    margin-bottom: 3vw;
+    text-align: center;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 0.5vw;
+}
+
+.project-category {
+    margin-bottom: 4vw;
+}
+
+.project-category h3 {
+    font-size: 2vw;
+    margin-bottom: 1.5vw;
+    color: #f0f0f0;
+    border-left: 5px solid #fff;
+    padding-left: 1vw;
+}
+
+/* Default project-grid - center images */
+.project-grid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2vw;
+    justify-content: center; /* center horizontally */
+    align-items: center; /* center vertically if images vary in height */
+}
+
+/* Images in project-grid */
+.project-grid img {
+    width: 300px;
+    max-width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+/* Row layout for horizontal scrolling (applied by class) */
+.project-grid.row-layout {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 2vw;
+    overflow-x: auto;
+    padding-bottom: 1vw;
+    justify-content: center; /* center the grid horizontally */
+    align-items: center; /* center vertically */
+}
+
+.project-grid.row-layout img {
+    width: 300px;
+    min-width: 80px;
+    max-width: 300px;
+}
+
+/* Scrollbar styling */
+.project-grid.row-layout::-webkit-scrollbar {
+    height: 0.5vw;
+}
+
+.project-grid.row-layout::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .title {
+        font-size: 10vw;
+    }
+
+    .subtitle {
+        font-size: 4vw;
+    }
+
+    .btn-explore {
+        font-size: 4vw;
+        padding: 2vw 4vw;
+    }
+
+    .about .text h2 {
+        font-size: 5vw;
+    }
+
+    .about .text p,
+    .awards {
+        font-size: 3.5vw;
+    }
+
+    .about-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 6vw;
+    }
+
+    .project-category h3 {
+        font-size: 4vw;
+    }
+
+    .project-grid.row-layout img {
+        width: 80%;
+        max-width: none;
+    }
+}

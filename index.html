@@ -1,85 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="css.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,500;1,600&family=Honk&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yacine Larfi | Photographic Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
-    <div id="nevbar_phone">
-        <i class="fa-solid fa-bars fa-2xl" id="bars" ></i>
-        <h1>
-            Yacine LARFI
-        </h1>
+
+
+  <nav class="navbar">
+    <div class="logo">Yacine LARFI</div>
+    <div class="hamburger" id="hamburger">
+      <i class="fas fa-bars"></i>
     </div>
-    <div class="nevbar">
-        <a href="" id="logo">Yacine</a>
-        <a href="">Home</a>
-        <a href="#About">About</a>
-        <a href="#skills">Skills</a>
-        <a id="works_title" href="#works">Works</a>
-        <a href="#contact">Contact</a>
-    </div>
-    <div class="container">
-        <div id="profile_pic">
-        <img src="pic/3.jpg" alt="" id="profile_pic">
-        <p id="portfolio">portfolio</p>
-        <p id="portfolio2">rtfo</p>
-    </div>
-    <div class="bio">
-        <h2 class="h21" id="h21">Yacine LARFI </h2>
-        <i class="fa-solid fa-gear fa-2xl" id="iconParam"></i>
-        <div id="prm_div">
-            <i class="fa-solid fa-star fa-2xl" style="color: #ffffff"></i>
-            <a href="https://drive.google.com/drive/folders/1l6rNXU-V3d3u1tfGO0fam68WrdWTfgDT?usp=share_link" target="_blank" style="color: #ffffff">
-                <i class="fa-solid fa-diagram-project fa-2xl" ></i>
-            </a>            
-            <a href=""><i class="fa-solid fa-file fa-2xl" style="color: #ffffff"></i></a>
-        </div>
-    </div>
-     <iframe id="About" src="Abbout.html" frameborder="0" ></iframe>
-     <iframe id="skills" src="About.html" frameborder="0" ></iframe>
-     <iframe id="works" src="works.html" frameborder="0" ></iframe>
-     <iframe id="contact" src="contact.html" frameborder="0" ></iframe>
-     <div id="liennn">
-        <a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/">
-            <i class="fa-brands fa-linkedin fa-2xl"></i>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#"><i class="fas fa-file-alt"></i> CV</a></li>
+      <li><a href="https://github.com/yacinelrf" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
+      <li><a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+      <li>
+        <a href="mailto:yacinelarfi3@gmail.com">
+          <i class="fas fa-envelope"></i> Contact
         </a>
-    <a href="https://github.com/yacinelrf/Study_with_me" >
-        <i class="fa-brands fa-github fa-2xl"></i>
-    </a>
-    <a  target="_blank"  href="mailto:yacinerlarfi3@gmail.com">
-        <i class="fa-solid fa-envelope fa-2xl" ></i>
-    </a>
-     </div>
-     <div id="left">
-        <div id="fst" class="left_div">
-            <a href="">
-                <i class="fa-solid fa-star fa-2xl" style="color: #ffffff"></i>
-            </a>
-            <p>Rate my portfolio</p>
-        </div>
-        <div id="scnd" class="left_div" href="https://drive.google.com/drive/folders/1l6rNXU-V3d3u1tfGO0fam68WrdWTfgDT?usp=share_link">
-            <a  target="_blank" style="color: #ffffff">
-                <i class="fa-solid fa-diagram-project fa-2xl" ></i>
-            </a>            
-            <p>Study with me PDFs</p>
-        </div>
-        <div id="thrd" class="left_div">
-            <a href="">
-                <i class="fa-solid fa-file fa-2xl" style="color: #ffffff"></i>
-            </a>
-            <p>My cv</p>
-        </div>
-     </div>
-     <script src="script.js"></script>
+      </li>
+      
+    </ul>
+  </nav>
+
+
+  <header class="hero">
+    <img src="bg.png" alt="Photography background" id="bg" />
+    <div class="hero-text">
+      <h1 class="title"> Yacine's Portfolio</h1>
+      <h2 class="subtitle">Projects and learning journey in computer science</h2>
+      <a href="#about" class="btn-explore">EXPLORE</a>
+    </div>
+  </header>
+
+
+  <section id="about" class="about">
+    <div class="about-content">
+      <div class="text">
+        <h2>About</h2>
+        <p>
+          Double-bachelor student Mathematics & Informatics at Sorbonne Paris Nord University
+<br>ex Computer Scince student at ESTIN Bejaia / USPN
+        </p>
+        <h2>Education</h2>
+        <ul class="awards">
+            
+          <li>
+            2024 – 2025
+            Second-year Bachelor's Degree in Computer Science
+            Université Sorbonne Paris Nord – France
+        </li>
+          <li>2023 – 2024
+Double Bachelor's Degree – Mathematics and Computer Science (Year 1)
+Université Sorbonne Paris Nord – France
+    </li>
+          <li>2022 – 2023
+            First-year Preparatory Class in Computer Science
+            École Supérieure en Sciences et Technologies de l’Informatique et du Numérique – Béjaïa, Algeria</li>
+            <li>
+                2022
+Baccalauréat in Mathematics – with High Honors
+Lycée Krim Belkacem – Bouira, Algeria
+
+
+            </li>
+      </div>
+      <div class="image-container">
+        <img src="profile.png" alt="Portrait of Yacine Larfi" class="profile" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Section -->
+  <section id="work" class="work">
+    <h2 class="section-title">My Work</h2>
+
+    <div class="project-category">
+      <h3>Web Projects</h3>
+      <div class="project-grid row-layout"> 
+        <img src="site1.png" alt="Web project 1" />
+        <img src="site2.gif" alt="Web project 2" />
+        <img src="site3.png" alt="Web project 3" />
+      </div>
+    </div>
+
+    <div class="project-category">
+      <h3>C Projects</h3>
+      <div class="project-grid">
+        <img src="snake.gif" alt="C project" />
+      </div>
+    </div>
+
+    <div class="project-category">
+      <h3>Java Projects</h3>
+      <div class="project-grid">
+        <img src="java.png" alt="Java project" />
+      </div>
+    </div>
+
+    <div class="project-category">
+      <h3>OCaml Projects</h3>
+      <div class="project-grid">
+        <img src="Ocaml.png" alt="OCaml project" />
+      </div>
+    </div>
+  </section>
+
+
+  <section id="informations">
+
+  </section>
+
+
+  <script>
+    const hamburger = document.getElementById("hamburger");
+    const navLinks = document.getElementById("nav-links");
+
+    hamburger.addEventListener("click", () => {
+      navLinks.classList.toggle("open");
+    });
+  </script>
 </body>
 </html>
