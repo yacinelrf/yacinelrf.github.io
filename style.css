@@ -110,6 +110,7 @@ a {
     font-size: 2.5vw;
     margin-top: 1vw;
     color: white;
+    width: 10vw;
 }
 
 .btn-explore {
@@ -1558,7 +1559,7 @@ body {
   }
 }
 
-
+.subtitle
 
 .certificates-list {
   list-style-type: disc;
