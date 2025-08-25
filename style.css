@@ -340,6 +340,7 @@ a {
 
     .subtitle {
         font-size: 4vw;
+        top:3vw;
     }
 
     .btn-explore {
