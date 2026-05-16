@@ -4,313 +4,331 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yacine Larfi | Portfolio </title>
+  <title>Yacine Larfi | Portfolio</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
+<!-- ===== NAVBAR ===== -->
 <nav class="navbar">
-  <div class="logo">Yacine LARFI</div>
-  <div class="hamburger" id="hamburger">
-    <i class="fas fa-bars"></i>
-  </div>
+  <div class="logo">YL<span class="logo-dot">.</span></div>
+  <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
   <ul class="nav-links" id="nav-links">
     <li><a href="cv1.pdf"><i class="fas fa-file-alt"></i> CV</a></li>
     <li><a href="https://github.com/yacinelrf" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
     <li><a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
     <li><a href="https://www.duolingo.com/profile/YacineLARFI" target="_blank"><i class="fas fa-language"></i> Duolingo</a></li>
-    <li>
-      <a href="mailto:yacinelarfi3@gmail.com">
-        <i class="fas fa-envelope"></i> Contact
-      </a>
-    </li>
+    <li><a href="mailto:yacinelarfi3@gmail.com"><i class="fas fa-envelope"></i> Contact</a></li>
   </ul>
 </nav>
 
+<!-- ===== HERO ===== -->
 <header class="hero">
-  <img src="images/3d-rendering-abstract-black-white-background.jpg" alt="Fond photographique" id="bg" />
+  <img src="images/3d-rendering-abstract-black-white-background.jpg" alt="Fond" id="bg" />
   <div class="hero-overlay"></div>
-
-  <div class="hero-text">
-    <h1 class="title">Portfolio de Yacine LARFI</h1>
-   
-    <a href="#about" class="btn-explore">EXPLORER</a>
-
-    <div class="social-icons">
-      <a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
-      <a href="https://github.com/yacinelrf" target="_blank" aria-label="GitHub">
-        <i class="fab fa-github"></i>
-      </a>
+  <div class="hero-content">
+    <p class="hero-tag">Étudiant en Informatique · Paris</p>
+    <h1 class="hero-title">Yacine<br><span>LARFI</span></h1>
+    <p class="hero-sub">Machine Learning · Développement Web · Algorithmique</p>
+    <div class="hero-actions">
+      <a href="#about" class="btn-primary">Explorer</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yacinelrf" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      </div>
     </div>
   </div>
+  <div class="hero-scroll">scroll <span></span></div>
 </header>
 
+<!-- ===== ABOUT ===== -->
 <section id="about" class="about-section">
+  <div class="section-label">01 — À propos</div>
   <div class="about-container">
-    <div class="about-text">
-      <h2>À propos de moi</h2>
-      <p class="intro">
-        Étudiant 3éme année  licence  Informatique<br />
-        Université Sorbonne Paris Nord, France<br />
-      </p>
 
-      <h2>Formation</h2>
+    <div class="about-text">
+      <h2>Étudiant passionné<br>par l'informatique</h2>
+      <p class="intro">3ème année de Licence Informatique à l'Université Sorbonne Paris Nord. Passionné par l'intelligence artificielle, le développement logiciel et les mathématiques appliquées.</p>
+
+      <h3>Formation</h3>
       <ul class="education-list">
         <li>
           <span class="edu-date">2025 – 2026</span>
           <div class="edu-detail">
-            <strong>Troisième  année de Licence Informatique</strong><br />
-            Université Sorbonne Paris Nord – France
-        </div>
-        </li>
-        <li>
-          <span class="edu-date">2024 – 2025</span>
-          <div class="edu-detail">
-            <strong>Double Licence – Mathématiques & Informatique (2ème année)e</strong><br />
-            Université Sorbonne Paris Nord – France
+            <strong>L3 Informatique</strong>
+            <span>Université Sorbonne Paris Nord</span>
           </div>
         </li>
         <li>
-          <span class="edu-date">2023 – 2024</span>
+          <span class="edu-date">2023 – 2025</span>
           <div class="edu-detail">
-            <strong>Double Licence – Mathématiques & Informatique (1ère année)</strong><br />
-            Université Sorbonne Paris Nord – France
+            <strong>Double Licence Maths & Info (L1–L2)</strong>
+            <span>Université Sorbonne Paris Nord</span>
           </div>
         </li>
         <li>
           <span class="edu-date">2022 – 2023</span>
           <div class="edu-detail">
-            <strong>Classe préparatoire en Informatique</strong><br />
-            ESTIN – Béjaïa, Algérie
+            <strong>Classe préparatoire Informatique</strong>
+            <span>ESTIN – Béjaïa, Algérie</span>
           </div>
         </li>
         <li>
           <span class="edu-date">2022</span>
           <div class="edu-detail">
-            <strong>Baccalauréat en Mathématiques – Mention Très Bien</strong><br />
-            Lycée Krim Belkacem – Bouira, Algérie
+            <strong>Baccalauréat Mathématiques – Mention TB</strong>
+            <span>Lycée Krim Belkacem – Bouira, Algérie</span>
           </div>
         </li>
       </ul>
     </div>
 
-    <div class="skills-section">
-      <h2>Compétences</h2>
-      <div class="skills-chart">
-        <div class="skill">
-          <span class="skill-label">Apprentissage automatique (Machine Learning)</span>
-          <div class="skill-bar"><div class="fill"></div></div>
+    <div class="skills-panel">
+      <h3>Compétences</h3>
+      <div class="skill-bars">
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Langage C</span><span class="pct">75%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:75%; --c:#ff6b6b"></div></div>
         </div>
-        <div class="skill">
-          <span class="skill-label">Apprentissage profond (Deep Learning)</span>
-          <div class="skill-bar"><div class="fill"></div></div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Java / Swing</span><span class="pct">70%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:70%; --c:#ffd166"></div></div>
         </div>
-        <div class="skill">
-          <span class="skill-label">Langage C</span>
-          <div class="skill-bar"><div class="fill"></div></div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Web (HTML/CSS/JS)</span><span class="pct">85%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:85%; --c:#a78bfa"></div></div>
         </div>
-        <div class="skill">
-          <span class="skill-label">Java/Swing</span>
-          <div class="skill-bar"><div class="fill"></div></div>
-        </div>
-        <div class="skill">
-          <span class="skill-label">Développement Web (HTML/CSS/JS)</span>
-          <div class="skill-bar"><div class="fill"></div></div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Python / SQL</span><span class="pct">80%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:80%; --c:#06b6d4"></div></div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section id="work" class="work">
-  <h2 class="section-title">Projets</h2>
+<!-- ===== PROJECTS ===== -->
+<section id="work" class="work-section">
+  <div class="section-label">02 — Projets</div>
+  <h2 class="section-heading">Mes réalisations</h2>
 
-  <div class="category-buttons">
+  <div class="filter-bar">
     <button class="filter-btn active" data-category="All">Tout</button>
-    <button class="filter-btn" data-category="Web"> Web</button>
-    <button class="filter-btn" data-category="C"> C</button>
+    <button class="filter-btn" data-category="Web">Web</button>
+    <button class="filter-btn" data-category="C">C</button>
     <button class="filter-btn" data-category="Java">Java</button>
-    <button class="filter-btn" data-category="OCaml"> OCaml</button>
+    <button class="filter-btn" data-category="OCaml">OCaml</button>
     <button class="filter-btn" data-category="AI">Python/SQL</button>
+    <button class="filter-btn" data-category="Flask">Flask</button>
   </div>
 
-  <div class="projects-row" id="projects-container">
-    <div class="project-item" data-category="Web">
-      <img src="images/site1.png" alt="Personal Portfolio Website" />
-      <div class="project-info">
-        <h4>Site</h4>
-        <p>(HTML/CSS/JS).</p>
+  <div class="projects-grid" id="projects-container">
+    <div class="project-card" data-category="Web">
+      <div class="card-img"><img src="images/site1.png" alt="Portfolio personnel" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Web</span>
+        <h4>Site Portfolio</h4>
+        <p>Site personnel développé en HTML / CSS / JavaScript.</p>
       </div>
     </div>
-    <div class="project-item" data-category="Web">
-      <img src="images/site2.gif" alt="Interactive Web App with React" />
-      <div class="project-info">
-        <h4>Notifications</h4>
-        <p>Example notifications (HTML/CSS/JS). </p>
+    <div class="project-card" data-category="Web">
+      <div class="card-img"><img src="images/site2.gif" alt="Notifications" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Web</span>
+        <h4>Notifications UI</h4>
+        <p>Système de notifications animées (HTML/CSS/JS).</p>
       </div>
     </div>
-    <div class="project-item" data-category="Web">
-      <img src="images/site3.png" alt="Responsive Web Design Project" />
-      <div class="project-info">
-        <h4>Options</h4>
-        <p>Example options a ajouter dans un site web (HTML/CSS/JS).</p>
+    <div class="project-card" data-category="Web">
+      <div class="card-img"><img src="images/site3.png" alt="Options UI" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Web</span>
+        <h4>Options UI</h4>
+        <p>Composants d'options réutilisables pour interfaces web.</p>
       </div>
     </div>
-
-    <div class="project-item" data-category="C">
-      <img src="images/snake.gif" alt="Snake Game in C using NCurses" />
-      <div class="project-info">
+    <div class="project-card" data-category="C">
+      <div class="card-img"><img src="images/snake.gif" alt="Snake Game" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">C</span>
         <h4>Snake Game</h4>
-        <p>Jeu Snake en C  (affichage terminal).</p>
+        <p>Jeu Snake en C avec affichage terminal via NCurses.</p>
       </div>
     </div>
-
-    <div class="project-item" data-category="Java">
-      <img src="images/java.png" alt="Circuit Logic Designer (Swing GUI)" />
-      <div class="project-info">
+    <div class="project-card" data-category="Java">
+      <div class="card-img"><img src="images/java.png" alt="Logic Designer" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Java</span>
         <h4>Logic Designer</h4>
         <p>Concepteur de circuits logiques avec interface Swing.</p>
       </div>
     </div>
-
-    <div class="project-item" data-category="OCaml">
-      <img src="images/Ocaml.png" alt="Functional Programming Projects in OCaml" />
-      <div class="project-info">
+    <div class="project-card" data-category="OCaml">
+      <div class="card-img"><img src="images/Ocaml.png" alt="OCaml Toolkit" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">OCaml</span>
         <h4>OCaml Toolkit</h4>
-        <p>Structures de données et algos fonctionnels en OCaml.</p>
+        <p>Structures de données et algorithmes fonctionnels.</p>
       </div>
     </div>
-
-    <div class="project-item" data-category="AI">
-      <img src="images/housePricePredect.png" alt="House Price Prediction with ML" />
-      <div class="project-info">
+    <div class="project-card" data-category="AI">
+      <div class="card-img"><img src="images/housePricePredect.png" alt="ML Pricing" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Python/SQL</span>
         <h4>ML Pricing</h4>
-        <p>Prédiction de prix immobiliers.</p>
+        <p>Prédiction de prix immobiliers par machine learning.</p>
       </div>
     </div>
-    <div class="project-item" data-category="AI">
-      <img src="images/movies.jpg.webp" alt="" />
-      <div class="project-info">
-        <h4>ML Movie Recommender</h4>
-        <p></p>
+    <div class="project-card" data-category="AI">
+      <div class="card-img"><img src="images/movies.jpg.webp" alt="Movie Recommender" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Python/SQL</span>
+        <h4>Movie Recommender</h4>
+        <p>Système de recommandation de films par ML.</p>
       </div>
     </div>
-    <div class="project-item" data-category="AI">
-      <img src="images/travel.png" alt="" />
-      <div class="project-info">
+    <div class="project-card" data-category="AI">
+      <div class="card-img"><img src="images/travel.png" alt="Travel Explorer" loading="lazy" /></div>
+      <div class="card-info">
+        <span class="card-tag">Python/SQL</span>
         <h4>Travel Explorer</h4>
-        <p></p>
+        <p>Application d'exploration de destinations de voyage.</p>
+      </div>
+    </div>
+    <div class="project-card" data-category="OCaml">
+      <div class="card-img card-img-placeholder">
+        <div class="placeholder-icon"><i class="fas fa-microchip"></i></div>
+      </div>
+      <div class="card-info">
+        <span class="card-tag">OCaml</span>
+        <h4>Compilateur JS → Assembleur</h4>
+        <p>Compilateur écrit en OCaml traduisant un sous-ensemble de JavaScript en code assembleur x86. Inclut lexer, parser, analyse sémantique et génération de code.</p>
+      </div>
+    </div>
+    <div class="project-card" data-category="Web">
+      <div class="card-img card-img-placeholder">
+        <div class="placeholder-icon"><i class="fas fa-mountain"></i></div>
+      </div>
+      <div class="card-info">
+        <span class="card-tag">Web</span>
+        <h4>Meet&Hike</h4>
+        <p>Plateforme communautaire de randonnée développée en HTML/CSS/JS et PHP. Gestion d'expéditions, réservations, boutique d'équipement et mur de partage de médias.</p>
+      </div>
+    </div>
+    <div class="project-card" data-category="Flask">
+      <div class="card-img card-img-placeholder">
+        <div class="placeholder-icon"><i class="fas fa-prescription-bottle-alt"></i></div>
+      </div>
+      <div class="card-info">
+        <span class="card-tag">Flask / Python</span>
+        <h4>MedCheck</h4>
+        <p>Application médicale Flask avec moteur d'analyse IA (règles) détectant les interactions médicamenteuses. Workflow médecin–pharmacien, rapports et notifications.</p>
       </div>
     </div>
   </div>
 </section>
 
-<section id="skills" class="skills-section">
-  <h2 class="section-title" style="color: white;">Compétences & Technologies</h2>
-
-  <div class="skills-grid">
-    <div class="skill-card">
+<!-- ===== TECH STACK ===== -->
+<section id="skills" class="stack-section">
+  <div class="section-label">03 — Technologies</div>
+  <h2 class="section-heading">Stack technique</h2>
+  <div class="stack-grid">
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-desktop"></i></div>
       <h3>Frontend</h3>
-      <p>React, HTML, CSS,Java Swing</p>
+      <p>React, HTML, CSS, Java Swing</p>
     </div>
-    <div class="skill-card">
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-code"></i></div>
       <h3>Programmation</h3>
       <p>C, Assembleur, Bash, Python, Java, JavaScript, TypeScript</p>
     </div>
-    <div class="skill-card">
-      <h3>Données & Automatisation</h3>
-      <p>NumPy, Pandas, Selenium, API OpenAI, Web scraping, Outils CLI</p>
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-brain"></i></div>
+      <h3>Data & IA</h3>
+      <p>NumPy, Pandas, Selenium, API OpenAI, Web scraping</p>
     </div>
-    <div class="skill-card">
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-server"></i></div>
       <h3>DevOps & Outils</h3>
       <p>Git, GitHub Actions, Linux, Nginx, VS Code</p>
     </div>
-    <div class="skill-card">
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-database"></i></div>
       <h3>Bases de données</h3>
-      <p>SQL</p>
+      <p>SQL, XML, JSON, CSV</p>
     </div>
-    <div class="skill-card">
-      <h3>Formats de données</h3>
-      <p>XML, JSON, CSV</p>
-    </div>
-    <div class="skill-card">
-      <h3>Environnements interactifs</h3>
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-flask"></i></div>
+      <h3>Environnements</h3>
       <p>Jupyter Notebook, Google Colab</p>
     </div>
   </div>
 </section>
-<section id="certificates-section">
-  <div class="certificates">
-    <h2>Certifications</h2>
 
-    <ul class="certificates-list">
-      <li>IBM-
-Analyse exploratoire des données pour l'apprentissage automatique</li>
-      <li>Scientific Computing with Python – FreeCodeCamp</li>
-      <li>Data Analysis with Python – FreeCodeCamp</li>
-      <li>Machine Learning with Python – FreeCodeCamp</li>
-      <li>Data Science
-Fundamentals with
-Python and SQL</li>
-    </ul>
-
-    <div class="certificates-images">
-      <img src="images/certif1.png" alt="Certificat Scientific Computing with Python" class="certificate-img">
-      <img src="images/certif2.png" alt="Certificat Data Analysis with Python" class="certificate-img">
-      <img src="images/certif3.png" alt="Certificat Machine Learning with Python" class="certificate-img">
-      <img src="images/IBM.png" alt="Certificat Machine Learning with Python" class="certificate-img">
-      <img src="images/certif.png" alt="Data Science
-Fundamentals with
-Python and SQL" class="certificate-img">
-    </div>
+<!-- ===== CERTIFICATIONS ===== -->
+<section id="certificates-section" class="cert-section">
+  <div class="section-label">04 — Certifications</div>
+  <h2 class="section-heading">Certifications</h2>
+  <ul class="cert-list">
+    <li><i class="fas fa-check-circle"></i> IBM – Analyse exploratoire des données pour le ML</li>
+    <li><i class="fas fa-check-circle"></i> Scientific Computing with Python – FreeCodeCamp</li>
+    <li><i class="fas fa-check-circle"></i> Data Analysis with Python – FreeCodeCamp</li>
+    <li><i class="fas fa-check-circle"></i> Machine Learning with Python – FreeCodeCamp</li>
+    <li><i class="fas fa-check-circle"></i> Data Science Fundamentals with Python and SQL – IBM</li>
+  </ul>
+  <div class="cert-images">
+    <img src="images/certif1.png" alt="Certificat Scientific Computing" class="cert-img" />
+    <img src="images/certif2.png" alt="Certificat Data Analysis" class="cert-img" />
+    <img src="images/certif3.png" alt="Certificat Machine Learning" class="cert-img" />
+    <img src="images/IBM.png" alt="Certificat IBM" class="cert-img" />
+    <img src="images/certif.png" alt="Certificat Data Science" class="cert-img" />
   </div>
 </section>
 
-
-
-<section id="informations"></section>
-
-<script src="script.js">
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.getElementById("nav-links");
-
-  hamburger.addEventListener("click", () => {
-    navLinks.classList.toggle("open");
-  });
-</script>
-
+<!-- ===== CONTACT ===== -->
 <section id="contact" class="contact-section">
-  <h2 class="section-title">Contactez <span>Moi</span></h2>
-  <p class="section-subtitle">contact</p>
-
-  <div class="contact-container">
-
-    <div class="contact-info">
-      <div class="info-item">
-        <span class="icon"><i class="fas fa-envelope"></i></span>
-        <span>yacinelarfi3@gmail.com</span>
-      </div>
-      <div class="info-item">
-        <span class="icon"><i class="fas fa-phone-alt"></i></span>
-        <span>(+33)7 43 31 46 76</span>
-      </div>
-      <div class="info-item">
-        <span class="icon"><i class="fas fa-map-marker-alt"></i></span>
-        <span>Paris</span>
-      </div>
+  <div class="section-label">05 — Contact</div>
+  <h2 class="section-heading">Contactez-moi</h2>
+  <div class="contact-cards">
+    <a href="mailto:yacinelarfi3@gmail.com" class="contact-card">
+      <i class="fas fa-envelope"></i>
+      <span>yacinelarfi3@gmail.com</span>
+    </a>
+    <a href="tel:+33743314676" class="contact-card">
+      <i class="fas fa-phone-alt"></i>
+      <span>(+33) 7 43 31 46 76</span>
+    </a>
+    <div class="contact-card no-link">
+      <i class="fas fa-map-marker-alt"></i>
+      <span>Paris, France</span>
     </div>
   </div>
 </section>
 
+<!-- ===== FOOTER ===== -->
 <footer class="footer">
-  <p>Droits d’auteur © 2025 <strong>Yacine LARFI</strong>. Tous droits réservés.</p>
+  <p>© 2025 <strong>Yacine LARFI</strong> — Tous droits réservés.</p>
 </footer>
 
+<!-- Lightbox -->
+<div id="lightbox" class="lightbox">
+  <button class="lightbox-close" id="lb-close"><i class="fas fa-times"></i></button>
+  <img id="lb-img" src="" alt="" />
+</div>
+
+<script src="script.js"></script>
 </body>
 </html>
