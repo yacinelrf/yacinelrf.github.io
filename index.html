@@ -10,6 +10,8 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+
 </head>
 <body>
 
@@ -33,7 +35,7 @@
   <div class="hero-content">
     <p class="hero-tag">Étudiant en Informatique · Paris</p>
     <h1 class="hero-title">Yacine<br><span>LARFI</span></h1>
-    <p class="hero-sub">Machine Learning · Développement Web · Algorithmique</p>
+    <p class="hero-sub">Cybersécurité · Réseaux · Cloud</p>
     <div class="hero-actions">
       <a href="#about" class="btn-primary">Explorer</a>
       <div class="social-icons">
@@ -42,6 +44,12 @@
       </div>
     </div>
   </div>
+
+  <!-- Photo ajoutée à droite du nom, fondue vers le bas -->
+  <div class="hero-photo">
+    <img src="images/photo_yacine.png" alt="Yacine Larfi" />
+  </div>
+
   <div class="hero-scroll">scroll <span></span></div>
 </header>
 
@@ -92,6 +100,18 @@
       <div class="skill-bars">
         <div class="skill-bar-item">
           <div class="skill-bar-header">
+            <span>Réseaux & Cybersécurité</span><span class="pct">80%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:80%; --c:#00d4aa"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Cloud & Automatisation</span><span class="pct">72%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:72%; --c:#6366f1"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
             <span>Langage C</span><span class="pct">75%</span>
           </div>
           <div class="bar-track"><div class="bar-fill" style="--w:75%; --c:#ff6b6b"></div></div>
@@ -114,6 +134,18 @@
           </div>
           <div class="bar-track"><div class="bar-fill" style="--w:80%; --c:#06b6d4"></div></div>
         </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Flask / SQLAlchemy</span><span class="pct">78%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:78%; --c:#10b981"></div></div>
+        </div>
+        <div class="skill-bar-item">
+          <div class="skill-bar-header">
+            <span>Git (travail en équipe)</span><span class="pct">75%</span>
+          </div>
+          <div class="bar-track"><div class="bar-fill" style="--w:75%; --c:#f59e0b"></div></div>
+        </div>
       </div>
     </div>
   </div>
@@ -135,30 +167,16 @@
   </div>
 
   <div class="projects-grid" id="projects-container">
-    <div class="project-card" data-category="Web">
-      <div class="card-img"><img src="images/site1.png" alt="Portfolio personnel" loading="lazy" /></div>
+
+    <div class="project-card" data-category="Flask">
+      <div class="card-img"><img src="images/plagiat.png" alt="Détection de plagiat" loading="lazy" /></div>
       <div class="card-info">
-        <span class="card-tag">Web</span>
-        <h4>Site Portfolio</h4>
-        <p>Site personnel développé en HTML / CSS / JavaScript.</p>
+        <span class="card-tag">Flask / Python</span>
+        <h4>Détection de plagiat</h4>
+        <p>Application web Flask de détection de similarité entre copies d'étudiants. Base de données SQLAlchemy (9 tables), authentification par rôles, algorithmes TF-IDF et Jaccard, export PDF. Projet d'équipe — rôle : Backend & Base de données.</p>
       </div>
     </div>
-    <div class="project-card" data-category="Web">
-      <div class="card-img"><img src="images/site2.gif" alt="Notifications" loading="lazy" /></div>
-      <div class="card-info">
-        <span class="card-tag">Web</span>
-        <h4>Notifications UI</h4>
-        <p>Système de notifications animées (HTML/CSS/JS).</p>
-      </div>
-    </div>
-    <div class="project-card" data-category="Web">
-      <div class="card-img"><img src="images/site3.png" alt="Options UI" loading="lazy" /></div>
-      <div class="card-info">
-        <span class="card-tag">Web</span>
-        <h4>Options UI</h4>
-        <p>Composants d'options réutilisables pour interfaces web.</p>
-      </div>
-    </div>
+
     <div class="project-card" data-category="C">
       <div class="card-img"><img src="images/snake.gif" alt="Snake Game" loading="lazy" /></div>
       <div class="card-info">
@@ -181,22 +199,6 @@
         <span class="card-tag">OCaml</span>
         <h4>OCaml Toolkit</h4>
         <p>Structures de données et algorithmes fonctionnels.</p>
-      </div>
-    </div>
-    <div class="project-card" data-category="AI">
-      <div class="card-img"><img src="images/housePricePredect.png" alt="ML Pricing" loading="lazy" /></div>
-      <div class="card-info">
-        <span class="card-tag">Python/SQL</span>
-        <h4>ML Pricing</h4>
-        <p>Prédiction de prix immobiliers par machine learning.</p>
-      </div>
-    </div>
-    <div class="project-card" data-category="AI">
-      <div class="card-img"><img src="images/movies.jpg.webp" alt="Movie Recommender" loading="lazy" /></div>
-      <div class="card-info">
-        <span class="card-tag">Python/SQL</span>
-        <h4>Movie Recommender</h4>
-        <p>Système de recommandation de films par ML.</p>
       </div>
     </div>
     <div class="project-card" data-category="AI">
@@ -242,32 +244,32 @@
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-desktop"></i></div>
       <h3>Frontend</h3>
-      <p>React, HTML, CSS, Java Swing</p>
+      <p>React, HTML, CSS, Java Swing, Bootstrap 5, Jinja2</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-code"></i></div>
       <h3>Programmation</h3>
-      <p>C, Assembleur, Bash, Python, Java, JavaScript, TypeScript</p>
+      <p>C, Assembleur, Bash, Python, Java, JavaScript, TypeScript, OCaml</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-brain"></i></div>
       <h3>Data & IA</h3>
-      <p>NumPy, Pandas, Selenium, API OpenAI, Web scraping</p>
+      <p>NumPy, Pandas, scikit-learn, spaCy, NLTK, TF-IDF, Selenium, API OpenAI, Web scraping</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-server"></i></div>
       <h3>DevOps & Outils</h3>
-      <p>Git, GitHub Actions, Linux, Nginx, VS Code</p>
+      <p>Git, GitLab, GitHub Actions, Linux, Nginx, VS Code, scripts Bash</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-database"></i></div>
       <h3>Bases de données</h3>
-      <p>SQL, XML, JSON, CSV</p>
+      <p>SQL, SQLAlchemy ORM, SQLite, XML, JSON, CSV</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-flask"></i></div>
-      <h3>Environnements</h3>
-      <p>Jupyter Notebook, Google Colab</p>
+      <h3>Frameworks & Environnements</h3>
+      <p>Flask, Flask-Login, Werkzeug, fpdf2, Jupyter Notebook, Google Colab</p>
     </div>
   </div>
 </section>
