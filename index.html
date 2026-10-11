@@ -1,17 +1,15 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Yacine Larfi | Portfolio</title>
-  <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
-
-
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Yacine Larfi | Portfolio</title>
+<link rel="stylesheet" href="style.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;600;700;800&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
 </head>
 <body>
 
@@ -20,11 +18,12 @@
   <div class="logo">YL<span class="logo-dot">.</span></div>
   <div class="hamburger" id="hamburger"><i class="fas fa-bars"></i></div>
   <ul class="nav-links" id="nav-links">
-    <li><a href="cv1.pdf"><i class="fas fa-file-alt"></i> CV</a></li>
-    <li><a href="https://github.com/yacinelrf" target="_blank"><i class="fab fa-github"></i> GitHub</a></li>
-    <li><a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> À propos</a></li>
+    <li><a href="#work"><i class="fas fa-code"></i> Projets</a></li>
+    <li><a href="#skills"><i class="fas fa-layer-group"></i> Stack</a></li>
+    <li><a href="#certificates-section"><i class="fas fa-certificate"></i> Certifs</a></li>
+    <li><a href="cv1.pdf" target="_blank"><i class="fas fa-file-alt"></i> CV</a></li>
     <li><a href="https://www.duolingo.com/profile/YacineLARFI" target="_blank"><i class="fas fa-language"></i> Duolingo</a></li>
-    <li><a href="mailto:yacinelarfi3@gmail.com"><i class="fas fa-envelope"></i> Contact</a></li>
   </ul>
 </nav>
 
@@ -33,23 +32,21 @@
   <img src="images/3d-rendering-abstract-black-white-background.jpg" alt="Fond" id="bg" />
   <div class="hero-overlay"></div>
   <div class="hero-content">
-    <p class="hero-tag">Étudiant en Informatique · Paris</p>
+    <p class="hero-tag">Alternant IT Ops · Master Réseaux & Sécurité · Paris</p>
     <h1 class="hero-title">Yacine<br><span>LARFI</span></h1>
     <p class="hero-sub">Cybersécurité · Réseaux · Cloud</p>
     <div class="hero-actions">
-      <a href="#about" class="btn-primary">Explorer</a>
+      <a href="#about" class="btn-primary"><i class="fas fa-arrow-down"></i> Explorer</a>
       <div class="social-icons">
         <a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="https://github.com/yacinelrf" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="mailto:yacinelarfi3@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
       </div>
     </div>
   </div>
-
-  <!-- Photo ajoutée à droite du nom, fondue vers le bas -->
   <div class="hero-photo">
     <img src="images/photo_yacine.png" alt="Yacine Larfi" />
   </div>
-
   <div class="hero-scroll">scroll <span></span></div>
 </header>
 
@@ -59,11 +56,22 @@
   <div class="about-container">
 
     <div class="about-text">
-      <h2>Étudiant passionné<br>par l'informatique</h2>
-      <p class="intro">3ème année de Licence Informatique à l'Université Sorbonne Paris Nord. Passionné par l'intelligence artificielle, le développement logiciel et les mathématiques appliquées.</p>
+      <h2>Passionné par les systèmes,<br>les réseaux et la sécurité</h2>
+      <p class="intro">
+        Étudiant en Master Informatique – Réseaux et Cybersécurité à Sorbonne Université,
+        actuellement en alternance chez <strong>LFB Biomédicaments</strong> en tant qu'Analyste Opérations IT.
+        Passionné par la sécurité des réseaux, le cloud et l'automatisation des systèmes.
+      </p>
 
       <h3>Formation</h3>
       <ul class="education-list">
+        <li>
+          <span class="edu-date">2026 – 2028</span>
+          <div class="edu-detail">
+            <strong>Master Informatique – Réseaux & Cybersécurité</strong>
+            <span>Sorbonne Université · Alternance</span>
+          </div>
+        </li>
         <li>
           <span class="edu-date">2025 – 2026</span>
           <div class="edu-detail">
@@ -74,7 +82,7 @@
         <li>
           <span class="edu-date">2023 – 2025</span>
           <div class="edu-detail">
-            <strong>Double Licence Maths & Info (L1–L2)</strong>
+            <strong>Double Licence Maths & Informatique (L1–L2)</strong>
             <span>Université Sorbonne Paris Nord</span>
           </div>
         </li>
@@ -82,78 +90,22 @@
           <span class="edu-date">2022 – 2023</span>
           <div class="edu-detail">
             <strong>Classe préparatoire Informatique</strong>
-            <span>ESTIN – Béjaïa, Algérie</span>
-          </div>
-        </li>
-        <li>
-          <span class="edu-date">2022</span>
-          <div class="edu-detail">
-            <strong>Baccalauréat Mathématiques – Mention TB</strong>
-            <span>Lycée Krim Belkacem – Bouira, Algérie</span>
+            <span>ESTIN</span>
           </div>
         </li>
       </ul>
+
     </div>
 
-    <div class="skills-panel">
-      <h3>Compétences</h3>
-      <div class="skill-bars">
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Réseaux & Cybersécurité</span><span class="pct">80%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:80%; --c:#00d4aa"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Cloud & Automatisation</span><span class="pct">72%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:72%; --c:#6366f1"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Langage C</span><span class="pct">75%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:75%; --c:#ff6b6b"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Java / Swing</span><span class="pct">70%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:70%; --c:#ffd166"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Web (HTML/CSS/JS)</span><span class="pct">85%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:85%; --c:#a78bfa"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Python / SQL</span><span class="pct">80%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:80%; --c:#06b6d4"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Flask / SQLAlchemy</span><span class="pct">78%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:78%; --c:#10b981"></div></div>
-        </div>
-        <div class="skill-bar-item">
-          <div class="skill-bar-header">
-            <span>Git (travail en équipe)</span><span class="pct">75%</span>
-          </div>
-          <div class="bar-track"><div class="bar-fill" style="--w:75%; --c:#f59e0b"></div></div>
-        </div>
-      </div>
-    </div>
+    
   </div>
 </section>
 
+
+
 <!-- ===== PROJECTS ===== -->
 <section id="work" class="work-section">
-  <div class="section-label">02 — Projets</div>
+  <div class="section-label">03 — Projets</div>
   <h2 class="section-heading">Mes réalisations</h2>
 
   <div class="filter-bar">
@@ -167,16 +119,14 @@
   </div>
 
   <div class="projects-grid" id="projects-container">
-
     <div class="project-card" data-category="Flask">
       <div class="card-img"><img src="images/plagiat.png" alt="Détection de plagiat" loading="lazy" /></div>
       <div class="card-info">
         <span class="card-tag">Flask / Python</span>
         <h4>Détection de plagiat</h4>
-        <p>Application web Flask de détection de similarité entre copies d'étudiants. Base de données SQLAlchemy (9 tables), authentification par rôles, algorithmes TF-IDF et Jaccard, export PDF. Projet d'équipe — rôle : Backend & Base de données.</p>
+        <p>Application web Flask de détection de similarité entre copies d'étudiants. Base SQLAlchemy (9 tables), auth par rôles, TF-IDF & Jaccard, export PDF.</p>
       </div>
     </div>
-
     <div class="project-card" data-category="C">
       <div class="card-img"><img src="images/snake.gif" alt="Snake Game" loading="lazy" /></div>
       <div class="card-info">
@@ -214,7 +164,7 @@
       <div class="card-info">
         <span class="card-tag">OCaml</span>
         <h4>Compilateur JS → Assembleur</h4>
-        <p>Compilateur écrit en OCaml traduisant un sous-ensemble de JavaScript en code assembleur x86. Inclut lexer, parser, analyse sémantique et génération de code.</p>
+        <p>Compilateur OCaml traduisant un sous-ensemble JS en assembleur x86. Lexer, parser, analyse sémantique, génération de code.</p>
       </div>
     </div>
     <div class="project-card" data-category="Web">
@@ -222,15 +172,15 @@
       <div class="card-info">
         <span class="card-tag">Web</span>
         <h4>Meet&Hike</h4>
-        <p>Plateforme communautaire de randonnée développée en HTML/CSS/JS et PHP. Gestion d'expéditions, réservations, boutique d'équipement et mur de partage de médias.</p>
+        <p>Plateforme communautaire de randonnée en HTML/CSS/JS et PHP. Gestion d'expéditions, réservations, boutique et mur de médias.</p>
       </div>
     </div>
     <div class="project-card" data-category="Flask">
-      <div class="card-img"><img src="images/MedCheck.png" alt="MedCheck.png" loading="lazy" /></div>
+      <div class="card-img"><img src="images/MedCheck.png" alt="MedCheck" loading="lazy" /></div>
       <div class="card-info">
         <span class="card-tag">Flask / Python</span>
         <h4>MedCheck</h4>
-        <p>Application médicale Flask avec moteur d'analyse IA (règles) détectant les interactions médicamenteuses. Workflow médecin–pharmacien, rapports et notifications.</p>
+        <p>Application médicale Flask avec moteur IA détectant les interactions médicamenteuses. Workflow médecin–pharmacien, rapports et notifications.</p>
       </div>
     </div>
   </div>
@@ -238,9 +188,14 @@
 
 <!-- ===== TECH STACK ===== -->
 <section id="skills" class="stack-section">
-  <div class="section-label">03 — Technologies</div>
+  <div class="section-label">04 — Technologies</div>
   <h2 class="section-heading">Stack technique</h2>
   <div class="stack-grid">
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-network-wired"></i></div>
+      <h3>Réseaux & Sécu</h3>
+      <p>TCP/IP, DNS, DHCP, VPN, Firewall, Active Directory, Windows Server</p>
+    </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-desktop"></i></div>
       <h3>Frontend</h3>
@@ -254,7 +209,7 @@
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-brain"></i></div>
       <h3>Data & IA</h3>
-      <p>NumPy, Pandas, scikit-learn, spaCy, NLTK, TF-IDF, Selenium, API OpenAI, Web scraping</p>
+      <p>NumPy, Pandas, scikit-learn, spaCy, NLTK, TF-IDF, Selenium, API OpenAI</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-server"></i></div>
@@ -264,11 +219,16 @@
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-database"></i></div>
       <h3>Bases de données</h3>
-      <p>SQL, SQLAlchemy ORM, SQLite, XML, JSON, CSV</p>
+      <p>SQL, SQLAlchemy ORM, SQLite, SAP HANA (notions), XML, JSON, CSV</p>
+    </div>
+    <div class="stack-card">
+      <div class="stack-icon"><i class="fas fa-cloud"></i></div>
+      <h3>Cloud & Virtualisation</h3>
+      <p>Virtualisation, Cloud Computing, Hypervision, Ordonnancement, Supervision</p>
     </div>
     <div class="stack-card">
       <div class="stack-icon"><i class="fas fa-flask"></i></div>
-      <h3>Frameworks & Environnements</h3>
+      <h3>Frameworks</h3>
       <p>Flask, Flask-Login, Werkzeug, fpdf2, Jupyter Notebook, Google Colab</p>
     </div>
   </div>
@@ -276,7 +236,7 @@
 
 <!-- ===== CERTIFICATIONS ===== -->
 <section id="certificates-section" class="cert-section">
-  <div class="section-label">04 — Certifications</div>
+  <div class="section-label">05 — Certifications</div>
   <h2 class="section-heading">Certifications</h2>
   <ul class="cert-list">
     <li><i class="fas fa-check-circle"></i> IBM – Analyse exploratoire des données pour le ML</li>
@@ -296,7 +256,7 @@
 
 <!-- ===== CONTACT ===== -->
 <section id="contact" class="contact-section">
-  <div class="section-label">05 — Contact</div>
+  <div class="section-label">06 — Contact</div>
   <h2 class="section-heading">Contactez-moi</h2>
   <div class="contact-cards">
     <a href="mailto:yacinelarfi3@gmail.com" class="contact-card">
@@ -307,16 +267,16 @@
       <i class="fas fa-phone-alt"></i>
       <span>(+33) 7 43 31 46 76</span>
     </a>
-    <div class="contact-card no-link">
-      <i class="fas fa-map-marker-alt"></i>
-      <span>Paris, France</span>
-    </div>
+    <a href="https://www.linkedin.com/in/yacine-larfi-6b41a7298/" target="_blank" class="contact-card">
+      <i class="fab fa-linkedin"></i>
+      <span>LinkedIn</span>
+    </a>
   </div>
 </section>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
-  <p>© 2025 <strong>Yacine LARFI</strong> — Tous droits réservés.</p>
+  <p>© 2026 <strong>Yacine LARFI</strong> — Tous droits réservés.</p>
 </footer>
 
 <!-- Lightbox -->
